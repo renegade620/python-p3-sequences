@@ -15,3 +15,5 @@ def print_fibonacci(length):
         fib_list.append(fib_list[-1] + fib_list[-2])
     
     print(fib_list[:length])
+
+print_fibonacci(9)
